@@ -1,89 +1,19 @@
-# 🚀 Oracle Macro Engine (v9)
+# IBM-Market-Intelligence2: The Scarcity Multiplier (v1.0.1)
 
+## 🎯 Project Thesis
+This suite tracks the structural divergence in global financial markets caused by the 2030 semiconductor wafer deficit. It utilizes the **IBM Quantum-Centric Supercomputing (QCSC)** framework to identify "Gatekeeper" alpha peaks in the supply chain.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Language](https://img.shields.io/badge/language-C%2B%2B17-blue)
-![Status](https://img.shields.io/badge/status-production-black)
-![Version](https://img.shields.io/badge/version-v9.0-gold)
-![Strategy](https://img.shields.io/badge/strategy-macro--systematic-purple)
-![Volatility](https://img.shields.io/badge/regime-low--vol-green)
+## ⚡ Quantum Hardware Baseline (March 17, 2026)
+- **Backend:** ibm_fez (Heron r2 - 156 Qubits)
+- **Signal:** Primary Alpha Peak identified at state $|0111\rangle$ (44% frequency).
+- **Interpretation:** Infrastructure providers (IBM/SK Hynix) extract value while broad market margins compress under "Chipflation."
 
+## 🏊 Physical Performance Benchmarks
+- **Q1 2026 Milestone:** 10,062-yard open-water swim.
+- **Correlation:** Resilience in high-drag environments (Open Water / Supply Squeeze).
 
-
-Multi-layer macroeconomic engine written in C++ for systematic market regime detection.
-
-## 🧠 Features
-
-- 📈 Growth (Capex acceleration)
-- 🛢️ Inflation (Oil dynamics)
-- 💻 Sector Rotation (Tech vs Industrials)
-- 🏦 Interest Rates (US10Y)
-- 💵 Dollar Liquidity (DXY)
-- 🥇 Gold (Risk sentiment)
-- 📉 Yield Curve (2Y–10Y)
-- 💳 Credit Spreads (HY)
-- 📊 VIX (Volatility regime)
-
----
-
-## 📡 Latest Engine Output
-
-```text
-Alpha: 0.66
-Regime: 🟢 Risk-On
-
-Rotation:
-→ Industrials ↑
-→ Tech ↓
-
-Macro:
-FED: Easing
-USD: Weak
-Gold: Weak
-
-Systemic Risk:
-Yield Curve: Inverted ⚠️
-Credit: Stable
-VIX: Low
-
-Positioning:
-→ Partial Long (33%)
-→ Scale in (low vol trend)
----
-
-
----
-
-# 🧱 ADD ARCHITECTURE (VERY IMPORTANT)
-
-```md
----
-
-## 🏗️ Architecture
-
-data/ → macro inputs (CSV)
-src/ → engine core (C++)
-build/ → compiled binaries
-docs/ → research / models
-
-
-
----
-
-# ⚡ ADD ROADMAP (INVESTOR STYLE)
-
-```md
----
-
-## 🛣️ Roadmap
-
-- v10 → Portfolio allocator
-- v11 → Live data (Bloomberg / APIs)
-- v12 → Web dashboard (React + Node)
-- v13 → AI macro forecasting layer
-## ⚙️ Build
-
-```bash
-g++ -O3 -march=native -std=c++17 src/macro_engine_v9.cpp -o build/macro_engine_v9
-./build/macro_engine_v9
-tech,capex,oil,us10y,us2y,dxy,gold,hy_spread,vix
+## 🛠 Build & Deploy
+\`\`\`bash
+make all
+./build/macro_engine_v8
+\`\`\`
